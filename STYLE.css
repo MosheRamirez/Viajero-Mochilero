@@ -1,0 +1,183 @@
+.nav{
+   display: flex;
+   justify-content: space-between;
+   background: #3E5151;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+   color: #F4F6F7;
+   padding: 01rem;
+} 
+.logo a{
+    color: #F4F6F7;
+    text-decoration: none;
+}
+.logo span{
+    color: #DECBA4;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all ease .4s;
+}
+.nav ul li a:hover{
+    color: #196F3D;
+}
+h6{
+    font-size: 20px;
+}
+
+body{
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%; /*ancho*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(fondo2.jpg);
+    background-position: center center; /*posicion*/
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+h1, p{
+    color: white;
+}
+h1{
+    font-size: 60px; /*tamaño de letra*/
+}
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 5em;
+}
+h2{
+    font-size: 50px;
+    color: #145A32;
+    text-align: left;
+}
+h3{
+    text-align: left ;
+    font-size: 21px;
+    color: #424242 ;
+    line-height: 120%;
+    
+}
+h4{
+    text-align: left ;
+    font-size: 40px;
+    color: #196F3D;
+    
+}
+h5{
+    text-align: left ;
+    font-size: 30px;
+    color: #7DCEA0;
+
+}
+.guanajuato{
+
+    display: flex;
+}
+
+.txt{
+    margin-right: 20px;
+}
+
+.imagen{
+   width: 35vw;
+   height: 45vw;
+   border-radius: 29px;
+   margin-top: 100px;
+}
+.imagen1{
+    width: 60vw; /* ancho */
+    height: 35vw; /*largo o alto */
+    border-radius: 29px;
+    margin-top: 50px;
+    
+ }
+
+
+ .queretaro{
+
+    display: flex;
+}
+
+.txtquere{
+    margin-left: 20px;
+}
+
+.imagen2{
+   width: 30vw;
+   height: 40vw;
+   border-radius: 29px;
+   margin-top: 100px;
+}
+
+.imagen3{
+    width: 60vw; /* ancho */
+    height: 30vw; /*largo o alto */
+    border-radius: 29px;
+    margin-top: 50px;  
+ }
+ .miguel{
+
+    display: flex;
+}
+
+.txtmiguel{
+    margin-right: 20px;
+}
+
+.imagen4{
+   width: 20vw;
+   height: 30vw;
+   border-radius: 29px;
+   margin-top: 50px;
+}
+
+.puebla{
+
+    display: flex;
+}
+
+.txtpuebla{
+    margin-left: 20px;
+}
+
+.imagen5{
+   width: 20vw;
+   height: 30vw;
+   border-radius: 29px;
+   margin-top: 50px;
+}
+
+.imagen6{
+    width: 60vw; /* ancho */
+    height: 30vw; /*largo o alto */
+    border-radius: 29px;
+    margin-top: 50px;
+    margin: 3em;
+    
+ }
